@@ -1,0 +1,12 @@
+## Server
+server:
+  port: 9000
+
+## PostgreSQL
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/userservice
+    username: postgres
+    password: 111
+
